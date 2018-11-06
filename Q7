@@ -1,0 +1,10 @@
+Q7
+
+x='Ahmet'
+y='Yılmaz'
+array=['Ahmet','Yılmaz']
+array_1=['x','y']
+array==array_1
+
+array_2=['y','x']
+print(array_2)

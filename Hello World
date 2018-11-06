@@ -1,0 +1,68 @@
+Hello World 
+
+print('Hello World')
+
+number=2
+numara=5
+ahmet='This is a string'
+first_string='How are you'
+
+print(first_string)
+print(number+numara)
+print(number*numara+number)
+print(numara/number)
+print(first_string+ahmet)
+
+numara=10
+print(numara)
+numara=15
+print(numara)
+numara1=20
+
+numara=numara1
+print(numara)
+numara=numara+8
+numara+=4
+print(numara)
+
+numara="Bu bir numaradır"
+print(numara)
+
+boolean=True
+integer=5
+float=5.6
+array=[4,5,6,7,8]
+dict={'key': 'value'}
+tuple_=(4,5,6,7)
+
+number=9
+text='This is text'
+print(number==4)
+print(number+2!=8)
+print(number<8)
+print(number<=8)
+print(number>8)
+print(number>=8)
+print(text=='This is text')
+print(text=='merhaba')
+print('is' in text)
+
+import math
+
+number=7
+sqrt_number=math.sqrt(number)
+sqrt_number=math.sqrt(sqrt_number)
+
+sqrt_number_2=math.sqrt(math.sqrt(number))
+
+print(sqrt_number,sqrt_number_2)
+
+number='46'
+print(number.isdigit())
+string='This is a string'
+print(string.upper())
+print(string.lower())
+print(string.replace('This','That'))
+print(len(string))
+print(string.upper().sprit(' '))
+print(''.join(reversed(string)))
